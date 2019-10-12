@@ -1,0 +1,11 @@
+# World
+world*
+
+# Licence
+eula.txt
+
+# Log
+logs
+crash-reports
+plugins/*/logs
+
