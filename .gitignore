@@ -4,6 +4,9 @@ world*
 # Licence
 eula.txt
 
+# Cache
+usercache.json
+
 # Log
 logs
 crash-reports
