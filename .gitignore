@@ -1,3 +1,6 @@
+# Properties
+server.properties
+
 # World
 world*
 
@@ -11,4 +14,3 @@ usercache.json
 logs
 crash-reports
 plugins/*/logs
-

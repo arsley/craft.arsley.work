@@ -41,7 +41,7 @@ Death_Message:
       VOID:
       - '&c%killed% &7Fell into the Void'
       STARVATION:
-      - 'グゥ〜…「&c%killed% &7」'
+      - グゥ〜…「&c%killed% &7」
       SUICIDE:
       - '&c%killed% &7Decided To End It All'
       MAGIC:
