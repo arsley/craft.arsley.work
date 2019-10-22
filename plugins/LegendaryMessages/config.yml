@@ -21,30 +21,27 @@ Kick_Message:
 Death_Message:
   Enabled: true
   Messages:
-    Player: '&c%killed% &7has been slain by &c%killer% &7with their &c%weapon% &7in
-      the world &c%world%'
+    Player: '&c%killer% &7は刑法204条に規定される行為を行い&c%killed% &7を&c%weapon%でボコボコにした'
     Mobs:
       DEFAULT:
-      - '&c%killed% &7was killed by a &c%mob%'
-      - '&7A &c%mob% &7has killed &c%killed%'
+      - '&c%killed% &7は&c%mob%にやられた'
       ZOMBIE:
-      - '&c%killed% &7was ripped apart by a &c%mob%'
-      - '&c%killed% &7was chewed by a &c%mob%'
+      - '&c%killed% &7はうっかり&c%mob%に背後を取られた'
       SHULKER:
-      - '&c%killed% &7was shot by a &c%mob%'
+      - '&c%killed% &7は&c%mob%に急所をやられた'
     Other:
       DROWNING:
-      - '&c%killed% &7drowned'
+      - '&c%killed% &7「ッッボボボボボボボボッ！ボゥホゥ！ブオオオオバオウッバ！」'
       FALL:
-      - '&c%killed% &7took a leap of faith'
+      - '&c%killed% &7は足を滑らせた'
       FIRE:
-      - '&c%killed% &7went up in flames'
+      - '&c%killed% &7は燃えて花と散った'
       SUFFOCATION:
-      - '&c%killed% &7suffocated'
+      - '&c%killed% &7「息の詰まる世の中だ」'
       VOID:
       - '&c%killed% &7Fell into the Void'
       STARVATION:
-      - '&c%killed% &7Starved To Death'
+      - 'グゥ〜…「&c%killed% &7」'
       SUICIDE:
       - '&c%killed% &7Decided To End It All'
       MAGIC:
@@ -54,7 +51,7 @@ Death_Message:
       LIGHTENING:
       - '&c%killed% &7was struck by lightening!'
       LAVA:
-      - '&c%killed% &7tried to swim in lava'
+      - '&c%killed% &7は溶岩が気に入りすぎた'
       FIRE_TICK:
       - '&c%killed% &7died from the burns of fire'
       ENDER_PEARL:
