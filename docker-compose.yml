@@ -13,3 +13,14 @@ services:
       - MC_MAXMEM=16g
     restart: always
 
+  inspector:
+    image: gcr.io/google-containers/cadvisor:latest
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    ports:
+      - '10.111.129.3:80:8080'
+    restart: always
