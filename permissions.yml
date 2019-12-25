@@ -1,5 +1,0 @@
-server.basics:
-  description: Basic permissions
-  default: true
-  children:
-    msp.signs: true

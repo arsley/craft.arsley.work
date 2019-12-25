@@ -1,16 +1,3 @@
-# Properties
-server.properties
+# backup
 
-# World
-world*
-
-# Licence
-eula.txt
-
-# Cache
-usercache.json
-
-# Log
-logs
-crash-reports
-plugins/*/logs
+main.tar

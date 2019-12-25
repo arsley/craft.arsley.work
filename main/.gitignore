@@ -1,0 +1,21 @@
+# World
+world*
+
+# Licence
+eula.txt
+
+# Cache
+usercache.json
+
+# Log
+logs
+crash-reports
+plugins/*/logs
+
+# dynmap
+plugins/dynmap/web
+
+# slack
+
+plugins/Slack/
+!plugins/Slack/.gitkeep
