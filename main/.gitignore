@@ -11,6 +11,7 @@ usercache.json
 logs
 crash-reports
 plugins/*/logs
+output.con
 
 # dynmap
 plugins/dynmap/web
