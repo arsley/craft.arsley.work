@@ -24,3 +24,4 @@ services:
     ports:
       - '10.111.129.3:80:8080'
     restart: always
+
