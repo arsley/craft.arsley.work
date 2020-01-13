@@ -12,7 +12,7 @@ services:
     environment:
       - EULA=true
       - SPIGOT_VER=1.14.4
-      - MC_MAXMEM=16g
+      - MC_MAXMEM=4g
     restart: always
 
   cadvisor:
@@ -31,5 +31,5 @@ services:
       - ./proxy/nginx.conf:/etc/nginx/nginx.conf
       - ./proxy/htpasswd:/etc/nginx/htpasswd
     ports:
-      - 80:80
+      - '8888:80'
 
