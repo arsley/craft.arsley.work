@@ -15,8 +15,8 @@ output.con
 
 # dynmap
 plugins/dynmap/web
+plugins/dynmap/ids-by-ip.txt
 
 # slack
-
 plugins/Slack/
-!plugins/Slack/.gitkeep
+
