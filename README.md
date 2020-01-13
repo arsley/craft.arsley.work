@@ -6,14 +6,14 @@ Minecraft server and Configuration files using Spigot on docker-compose.
 
 ```bash
 # start
-sudo docker-compose up -d
+docker-compose up -d
 
 # stop/start/restart minecraft server itself (not container)
-sudo docker-compose exec main mc_stop    # stop
-sudo docker-compose exec main mc_start   # start
-sudo docker-compose exec main mc_restart # restart
+docker-compose exec main mc_stop    # stop
+docker-compose exec main mc_start   # start
+docker-compose exec main mc_restart # restart
 
-# enter console
-sudo docker-compose exec main java -jar /minecraft/spigot.jar nogui
+# sending command to the server console
+docker-compose exec main mc_send COMMAND
 ```
 
