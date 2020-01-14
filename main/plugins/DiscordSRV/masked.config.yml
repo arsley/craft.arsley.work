@@ -8,7 +8,7 @@ BotToken: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 # syntax is Channels: {"in-game channel name": "numerical channel ID from Discord", "another in-game channel name": "another numerical channel ID from Discord"}
 # The first channel pair specified in this config option will be the "main" channel, used for sending player joins/quits/deaths/achievements/etc
 #
-Channels: {"global": "666540483056500747"}
+Channels: {"to_discord": "666540483056500747"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
 DiscordConsoleChannelId: "666656705983021086"
@@ -17,7 +17,7 @@ DiscordConsoleChannelId: "666656705983021086"
 #
 # DebugLevel: 0 = no debug, 1 = debug, 2 = debug with stack traces
 #
-DebugLevel: 1
+DebugLevel: 0
 DebugJDA: false
 DebugJDARestActionStacks: false
 CancelConsoleCommandIfLoggingFailed: true

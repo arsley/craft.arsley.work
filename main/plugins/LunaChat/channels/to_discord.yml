@@ -1,0 +1,18 @@
+broadcast: false
+visible: true
+color: ''
+moderator: []
+allowcc: true
+format: '&f[%color%ch&f]%prefix%username%suffix&a:&f %msg'
+hided: []
+range: 0
+ban_expires: {}
+password: ''
+world: false
+members: []
+name: to_discord
+mute_expires: {}
+alias: ''
+banned: []
+muted: []
+desc: ''
