@@ -12,6 +12,14 @@ sets:
             }
         label: Markers
         markers:
+            marker_12:
+                world: world
+                markup: false
+                x: -192.0
+                icon: cup
+                y: 71.0
+                z: 142.0
+                label: starbucks
             marker_10:
                 world: world_nether
                 markup: false
@@ -138,6 +146,22 @@ sets:
                 - -426.0
                 label: アツアツ線
                 strokeColor: 16777215
+                strokeOpacity: 0.8
+            ソードライン:
+                world: world
+                markup: false
+                x:
+                - -597.0
+                - -264.0
+                strokeWeight: 4
+                y:
+                - 78.0
+                - 79.0
+                z:
+                - 151.0
+                - 151.0
+                label: ソードライン
+                strokeColor: 255
                 strokeOpacity: 0.8
         layerprio: 0
 playersets: {
