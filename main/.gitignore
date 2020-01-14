@@ -20,6 +20,5 @@ output.con
 plugins/dynmap/web
 plugins/dynmap/ids-by-ip.txt
 
-# slack
-plugins/Slack/
-
+# DiscordSRV's config with its token
+plugins/DiscordSRV/config.yml

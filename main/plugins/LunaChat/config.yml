@@ -39,7 +39,7 @@ displayChatOnConsole: true
 
 # グローバルマーカー。
 # これが発言の頭に入っている場合は、一時的にグローバル発言になる。
-globalMarker: '!'
+globalMarker: '!g'
 
 # 全てのメンバーが退出したときに、チャンネルを削除するかどうか
 zeroMemberRemove: false
