@@ -12,6 +12,46 @@ sets:
             }
         label: Markers
         markers:
+            marker_5:
+                world: world
+                markup: false
+                x: 36.0
+                icon: sign
+                y: 65.0
+                z: -1793.0
+                label: G-01
+            marker_6:
+                world: world
+                markup: false
+                x: 73.0
+                icon: factory
+                y: 87.0
+                z: -1793.0
+                label: IronGolemTrap
+            marker_7:
+                world: world
+                markup: false
+                x: 254.0
+                icon: tree
+                y: 65.0
+                z: -1848.0
+                label: sheep_farm
+            marker_8:
+                world: world_nether
+                markup: false
+                x: -66.0
+                icon: sign
+                y: 43.0
+                z: -1.0
+                label: A-01,Naga-no
+            marker_9:
+                world: world_nether
+                markup: false
+                x: -69.0
+                icon: sign
+                y: 43.0
+                z: -203.0
+                label: A-02,Ue-da
             marker_12:
                 world: world
                 markup: false
@@ -20,6 +60,14 @@ sets:
                 y: 71.0
                 z: 142.0
                 label: starbucks
+            marker_13:
+                world: world_nether
+                markup: false
+                x: -370.0
+                icon: tower
+                y: 68.0
+                z: 156.0
+                label: blaze_sponer
             marker_10:
                 world: world_nether
                 markup: false
@@ -68,46 +116,30 @@ sets:
                 y: 73.0
                 z: -1663.0
                 label: G-02
-            marker_5:
+            marker_16:
                 world: world
                 markup: false
-                x: 36.0
-                icon: sign
-                y: 65.0
-                z: -1793.0
-                label: G-01
-            marker_6:
-                world: world
-                markup: false
-                x: 73.0
-                icon: factory
-                y: 87.0
-                z: -1793.0
-                label: IronGolemTrap
-            marker_7:
-                world: world
-                markup: false
-                x: 254.0
-                icon: tree
-                y: 65.0
-                z: -1848.0
-                label: sheep_farm
-            marker_8:
+                x: -296.0
+                icon: portal
+                y: 73.0
+                z: 2535.0
+                label: temportal_world
+            marker_14:
                 world: world_nether
                 markup: false
-                x: -66.0
-                icon: sign
-                y: 43.0
-                z: -1.0
-                label: A-01,Naga-no
-            marker_9:
-                world: world_nether
+                x: -37.0
+                icon: portal
+                y: 51.0
+                z: 316.0
+                label: temportal
+            marker_15:
+                world: world
                 markup: false
-                x: -69.0
-                icon: sign
-                y: 43.0
-                z: -203.0
-                label: A-02,Ue-da
+                x: -1263.0
+                icon: portal
+                y: 44.0
+                z: 2064.0
+                label: end_portal
         lines:
             '1':
                 world: world
