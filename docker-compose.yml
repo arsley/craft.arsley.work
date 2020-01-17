@@ -29,7 +29,8 @@ services:
     image: nginx:alpine
     volumes:
       - ./proxy/nginx.conf:/etc/nginx/nginx.conf
-      - ./proxy/htpasswd:/etc/nginx/htpasswd
+      - ./proxy/cadvisor.htpasswd:/etc/nginx/cadvisor.htpasswd
+      - ./proxy/dynmap.htpasswd:/etc/nginx/dynmap.htpasswd
     ports:
       - '8888:80'
 
