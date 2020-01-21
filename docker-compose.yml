@@ -32,5 +32,5 @@ services:
       - ./proxy/cadvisor.htpasswd:/etc/nginx/cadvisor.htpasswd
       - ./proxy/dynmap.htpasswd:/etc/nginx/dynmap.htpasswd
     ports:
-      - '8888:80'
+      - '80:80'
 
