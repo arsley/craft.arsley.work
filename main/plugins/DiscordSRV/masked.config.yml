@@ -2,13 +2,13 @@
 ConfigVersion: 1.18.4
 
 # Bot token; don't know what this is? Look at the video on the plugin page for instructions
-BotToken: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+BotToken: ""
 
 # Channel links from game to Discord
 # syntax is Channels: {"in-game channel name": "numerical channel ID from Discord", "another in-game channel name": "another numerical channel ID from Discord"}
 # The first channel pair specified in this config option will be the "main" channel, used for sending player joins/quits/deaths/achievements/etc
 #
-Channels: {"to_discord": "666540483056500747"}
+Channels: {"discord": "666540483056500747"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
 DiscordConsoleChannelId: "666656705983021086"

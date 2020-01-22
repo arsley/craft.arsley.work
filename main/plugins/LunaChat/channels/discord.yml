@@ -1,7 +1,8 @@
 broadcast: false
 visible: true
 color: ''
-moderator: []
+moderator:
+- $c48f1538-2f7b-4618-8859-ccd5b5b99826
 allowcc: true
 format: '&f[%color%ch&f]%prefix%username%suffix&a:&f %msg'
 hided: []
@@ -9,8 +10,10 @@ range: 0
 ban_expires: {}
 password: ''
 world: false
-members: []
-name: to_discord
+members:
+- $c48f1538-2f7b-4618-8859-ccd5b5b99826
+- $11d8f67b-8364-45b7-8e09-41e6dbbe623e
+name: discord
 mute_expires: {}
 alias: ''
 banned: []

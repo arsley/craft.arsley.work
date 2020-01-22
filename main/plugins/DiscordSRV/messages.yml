@@ -21,7 +21,7 @@
 #
 # DiscordToMinecraftAllRolesSeparator: the separator used in between roles in %allroles%
 #
-DiscordToMinecraftChatMessageFormat: "[&bDiscord &r| %toprolecolor%%toprole%&r] %username% » %message%"
+DiscordToMinecraftChatMessageFormat: "%username% » %message%"
 DiscordToMinecraftChatMessageFormatNoRole: "[&bDiscord&r] %username% » %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 
@@ -122,9 +122,9 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # %date%:        current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerJoinMessageFormat: ":heavy_plus_sign: **%displayname% joined the server**"
-MinecraftPlayerFirstJoinMessageFormat: ":tada: **%displayname% joined the server for the first time**"
-MinecraftPlayerLeaveMessageFormat: ":heavy_minus_sign: **%displayname% left the server**"
+MinecraftPlayerJoinMessageFormat: ":hamburger: *%displayname%* joined the server"
+MinecraftPlayerFirstJoinMessageFormat: ":tada: *%displayname%* joined the server for the first time"
+MinecraftPlayerLeaveMessageFormat: ":sake: *%displayname%* left the server"
 
 # Minecraft -> Discord player death messages
 #
@@ -149,7 +149,7 @@ MinecraftPlayerDeathMessageFormat: ":skull: **%deathmessage%**"
 # %date%:        current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerAchievementMessagesFormat: ":medal: **%displayname% has made the advancement %achievement%!**"
+MinecraftPlayerAchievementMessagesFormat: ":medal: *%displayname%* has made the advancement %achievement%!"
 
 # Channel topic updater messages
 # This is all the stuff related to automatically updating the chat or console channel's topics with server information
