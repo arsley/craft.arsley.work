@@ -12,17 +12,7 @@ services:
     environment:
       - EULA=true
       - SPIGOT_VER=1.14.4
-      - MC_MAXMEM=10g
-    restart: always
-
-  cadvisor:
-    image: gcr.io/google-containers/cadvisor:latest
-    volumes:
-      - /:/rootfs:ro
-      - /var/run:/var/run:ro
-      - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro
-      - /dev/disk/:/dev/disk:ro
+      - MC_MAXMEM=3g
     restart: always
 
   proxy:
